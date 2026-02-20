@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="android-chrome-512x512.png" type="image/png" />
+    <title>allusers</title>
+
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ========== MAIN CONTENT ========== -->
+    <main class="main-content">
+
+        <!-- Top Navbar -->
+        <header class="topbar">
+            <button id="backBtn"> Back</button>
+<script>
+document.getElementById("backBtn").addEventListener("click", function () {
+    if (document.referrer !== "") {
+        window.history.back();  // Go to previous page
+    } else {
+        window.location.href = "index.html"; // Fallback if no history
+    }
+});
+</script>
+
+            <h1>Users</h1>
+            <div class="profile">Admin 1 </div>
+        </header>
+
+
+        <!-- Activity Section -->
+        <section class="activity">
+            <h2>All Users</h2>
+            <ul>
+                <li>User A logged in</li>
+                <li>New account created</li>
+                <li>Password changed</li>
+                <li>New support request</li>
+            </ul>
+        </section>
+
+    </main>
+</div>
+
+</body>
+</html>

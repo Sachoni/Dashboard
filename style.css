@@ -1,0 +1,143 @@
+/* ========== GENERAL PAGE STYLING ========== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url(abj.jpg);
+    color: #fff;
+}
+
+/* Layout grid: Sidebar + Main */
+.dashboard {
+    display: grid;
+    grid-template-columns: 240px 1fr;
+    height: 100vh;
+}
+
+
+/* ========== SIDEBAR ========== */
+.sidebar {
+    background: #d4a017;
+    color: white;
+    padding: 20px;
+}
+
+.logo {
+    color: #000; /* Butter theme color */
+    margin-bottom: 30px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 12px 0;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.sidebar li:hover {
+    color: #1c1b17;
+}
+
+
+/* ========== MAIN CONTENT ========== */
+.main-content {
+    padding: 20px 40px;
+    overflow-y: auto;
+}
+
+
+/* Top Navbar */
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile {
+    background: #d4a017;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+
+/* Welcome Banner */
+.banner {
+    background: linear-gradient(90deg, #d4a017, #d4a017);
+    padding: 25px;
+    border-radius: 12px;
+    margin: 20px 0;
+    color: #1e1e2f;
+}
+
+
+/* ========== STAT CARDS ========== */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    color: #1e1e2f;
+}
+
+.card {
+    justify-items: center;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.up-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+.number {
+    font-size: 28px;
+    color: #d4a017;
+    font-weight: bold;
+}
+
+
+/* ========== ACTIVITY SECTION ========== */
+.activity {
+    margin-top: 30px;
+}
+
+.activity ul {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    list-style: none;
+    color:#1e1e2f;
+}
+
+.activity li {
+    padding: 10px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.activity li:last-child {
+    border-bottom: none;
+}
+
+/*========Buttons==========*/
+table {
+    background: #fff;
+    color: #000;
+    padding-right: 75%;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+
+tr{
+   background: #d4a017;
+}
+
+
